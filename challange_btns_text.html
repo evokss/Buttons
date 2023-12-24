@@ -1,62 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge Exercise</title>
 
     <style>
-        a {
-            color: rgb(0, 113, 133);
-        }
+      a {
+        color: rgb(0, 113, 133);
+      }
 
-        #text-price {
-            color: rgb(0, 118, 0);
-            font-weight: bold;
-        }
+      a:hover {
+        color: rgb(255, 164, 28);
+      }
 
-        button {
-            border: none;
-            height: 30px;
-            width: 120px;
-            border-radius: 15px;
-        }
+      #text-price {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+      }
 
-        #add-button {
-            background-color: rgb(255, 216, 20);
-        }
+      button {
+        border: none;
+        height: 30px;
+        width: 120px;
+        border-radius: 15px;
+        cursor: pointer;
+      }
 
-        #buy-button {
-            background-color: rgb(255, 164, 28);
-        }
+      #add-button {
+        background-color: rgb(255, 216, 20);
+      }
 
+      #add-button:hover {
+        background-color: rgb(239, 202, 19);
+      }
+
+      #add-button:active {
+        background-color: rgba(255, 216, 20, 0.5);
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      #buy-button {
+        background-color: rgb(255, 164, 28);
+      }
+
+      #buy-button:hover {
+        background-color: rgb(239, 119, 0);
+      }
+
+      #buy-button:active {
+        background-color: rgba(255, 164, 28, 0.5);
+        color: rgba(0, 0, 0, 0.5);
+      }
     </style>
-</head>
-<body>
-    <a href="">
-        Back to Amazon
-    </a>
+  </head>
+  <body>
+    <a href="">Back to Amazon</a>
 
-    <h1>
-        Nike Black Running Shoes
-    </h1>
+    <h1>Nike Black Running Shoes</h1>
 
-    <p id="text-price">
-        $39 - in stock.
+    <p id="text-price">$39 - in stock.</p>
 
-    </p>
+    <p>Free delivery tomorrow.</p>
 
-    <p>
-        Free delivery tomorrow.
-    </p>
+    <button id="add-button">Add to Cart</button>
 
-    <button id="add-button">
-        Add to Cart
-    </button>
-
-    <button id="buy-button">
-        Buy Now
-    </button>
-
-</body>
+    <button id="buy-button">Buy Now</button>
+  </body>
 </html>
