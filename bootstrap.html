@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
-</head>
-<body>
+  </head>
+  <body>
     <style>
-        .start-button {
-            background-color: rgb(121, 82, 179);
-            color: white;
-            height: 30px;
-            width: 100px;
-            border: none;
-            border-radius: 3px;
-            font-weight: bold;
-            font-size: 10px;
-            
-        }
-        
-        .download-button {
-            color: rgb(108, 117, 125);
-            height: 30px;
-            width: 100px;
-            border-style: solid;
-            border-width: 1px;
-            border-color:  rgb(108, 117, 125);
-            border-radius: 3px;
-            margin-left: 5px; 
-            font-weight: bold;
-            font-size: 10px;
-        }
+      .start-button {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        height: 30px;
+        width: 100px;
+        border: none;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 10px;
+        transition: 0.3s;
+      }
+
+      .download-button {
+        color: rgb(108, 117, 125);
+        height: 30px;
+        width: 100px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(108, 117, 125);
+        border-radius: 3px;
+        margin-left: 5px;
+        font-weight: bold;
+        font-size: 10px;
+        transition: 0.3s;
+      }
+
+      .start-button:hover {
+        background-color: rgb(105, 72, 154);
+      }
+
+      .start-button:active {
+        background-color: rgb(85, 58, 127);
+      }
+
+      .download-button:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+      }
+
+      .download-button:active {
+        background-color: rgb(96, 104, 110);
+      }
     </style>
 
-    <button class="start-button">
-        Get Started
-    </button>
+    <button class="start-button">Get Started</button>
 
-    <button class="download-button">
-        Download
-    </button>
-</body>
+    <button class="download-button">Download</button>
+  </body>
 </html>
