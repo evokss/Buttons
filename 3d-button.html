@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Click</title>
+  </head>
+  <body>
+    <style>
+      .shadow-button {
+        font-size: 20px;
+        color: white;
+        background-color: rgb(12, 137, 45);
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px 30px;
+        cursor: pointer;
+        border: none;
+        box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.2);
+        transition: margin-top 0.3s, margin-left 0.3s;
+      }
+
+      .shadow-button:active {
+        margin-top: 13px;
+        margin-left: 13px;
+        box-shadow: none;
+      }
+    </style>
+    <button class="shadow-button">Shadow</button>
+  </body>
+</html>
