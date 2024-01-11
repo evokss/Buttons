@@ -1,0 +1,15 @@
+.button-row {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(12, 137, 45);
+    padding: 15px 30px;
+    margin: 10px 15px;
+    cursor: pointer;
+    border: 1px solid;
+    transition: padding 0.1s, margin 0.1s;
+  }
+
+  .button-row:hover {
+    padding: 15px 45px;
+    margin: 10px 0px;
+  }

@@ -1,0 +1,48 @@
+button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  #apply-button {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-size: 18px;
+  }
+
+  #apply-button:hover {
+    background-color: rgb(12, 83, 154);
+  }
+
+  #apply-button:active {
+    background-color: rgb(10, 66, 122);
+  }
+
+  #save-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    color: rgb(10, 102, 194);
+    margin-left: 5px;
+    font-size: 18px;
+    background-color: white;
+  }
+
+  #save-button:hover {
+    background-color: rgb(217, 233, 249);
+    border: 2px solid rgb(10, 102, 194);
+  }
+
+  #save-button:active {
+    background-color: rgb(255, 255, 255);
+  }

@@ -1,0 +1,48 @@
+a {
+    color: rgb(0, 113, 133);
+  }
+
+  a:hover {
+    color: rgb(255, 164, 28);
+  }
+
+  #text-price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+  }
+
+  button {
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  #add-button {
+    background-color: rgb(255, 216, 20);
+  }
+
+  #add-button:hover {
+    background-color: rgb(239, 202, 19);
+  }
+
+  #add-button:active {
+    background-color: rgba(255, 216, 20, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  #buy-button {
+    background-color: rgb(255, 164, 28);
+  }
+
+  #buy-button:hover {
+    background-color: rgb(239, 119, 0);
+  }
+
+  #buy-button:active {
+    background-color: rgba(255, 164, 28, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+  }
